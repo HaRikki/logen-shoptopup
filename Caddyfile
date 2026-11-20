@@ -1,0 +1,4 @@
+# Add Domain: ដាក់ Domain របស់អ្នក (SSL ស្វ័យប្រវត្តិ) រួច run: caddy run
+yourdomain.com, www.yourdomain.com {
+    reverse_proxy 127.0.0.1:8000
+}
